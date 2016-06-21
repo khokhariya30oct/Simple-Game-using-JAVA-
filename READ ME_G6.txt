@@ -1,0 +1,10 @@
+1)In this game,we have used a thread to make a flow continuesly of Random object.
+2)This random object contain either red or green color.
+3)To use Random value we've used Random method in java.
+4)For making more interesting level we speed up the moving object .for that we've used Thread.sleep(); 
+5)There are 2 Static object are on left and right side of flow,so based on this static object's color you 
+    have to press either "a" or "d".
+6)"a" or "d" will compare left hand sided object or rigtht hand sided with current object of flow and check by color.
+7) if player have sort in right manner then point will increment ,on wrong decision Game over.
+8)one more thing,atleast you have to press any before object of flow reach to the bottom.
+9)you can press any key but it will consider which key you pressed last and based on last key it'll check.
